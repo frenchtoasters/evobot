@@ -23,7 +23,6 @@ export class Song {
 
   public static async from(url: string = "", search: string = "") {
     const isYoutubeUrl = videoPattern.test(url);
-    // const isScUrl = scRegex.test(url);
 
     let songInfo;
 

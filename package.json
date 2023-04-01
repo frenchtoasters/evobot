@@ -1,6 +1,6 @@
 {
   "name": "evobot",
-  "version": "2.3.1",
+  "version": "2.6.1",
   "description": "Discord music bot built with discord.js",
   "main": "index.ts",
   "author": "Erit Islami <eritislami@gmail.com>",
@@ -19,9 +19,9 @@
     "commit": "cz"
   },
   "dependencies": {
-    "@discordjs/voice": "^0.11.0",
+    "@discordjs/voice": "^0.15.0",
     "array-move": "^3.0.1",
-    "discord.js": "^13",
+    "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
     "ffmpeg-static": "^4.4.1",
     "i18n": "^0.15.1",
@@ -34,18 +34,18 @@
     "ytdl-core-discord": "^1.3.1"
   },
   "devDependencies": {
-    "@types/i18n": "^0.13.2",
-    "@types/node": "^18.11.0",
+    "@types/i18n": "^0.13.6",
+    "@types/node": "^18.15.10",
     "cz-conventional-changelog": "^3.0.1",
-    "nodemon": "^2.0.20",
+    "nodemon": "^2.0.22",
     "ts-node": "^10.9.1"
   },
   "optionalDependencies": {
-    "@discordjs/opus": "^0.8.0",
+    "@discordjs/opus": "^0.9.0",
+    "libsodium-wrappers": "^0.7.11",
     "opusscript": "^0.0.8",
     "sodium-native": "^3.4.1",
-    "tweetnacl": "^1.0.3",
-    "libsodium-wrappers": "^0.7.10"
+    "tweetnacl": "^1.0.3"
   },
   "config": {
     "commitizen": {
